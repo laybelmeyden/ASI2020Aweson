@@ -7,8 +7,8 @@
 <!-- ################################################################################################ -->
 <section>
 <div class="proj_solo_img">
-@if( $solo->img  !== null)
-              <img src="storage/{{ $solo->img }}" class="img6">
+            @if( ($solo->img  !== null) || $solo->img  !== http_response_code(404))
+            <img src="storage/{{ $solo->img }}" class="img6">
             @else
             <img src="assets/img/img5.png" class="img6">
             @endif
