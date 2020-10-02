@@ -24,9 +24,9 @@
                 </div>
                 <div class="col l4 m12 s12">
                 <p class="p13">Контакты</p>
-                <p class="p15">+7 9254931866</p>
+                <p class="p15">89153103447</p>
                 <p class="p15">г. Омск ул. Маршала Жукова, д 72, корп 1</p>
-                <p class="p15">infoasi@mail.ru</p>
+                <p class="p15">ns@anoasi.com</p>
                 </div>
             </div>
           </div>
