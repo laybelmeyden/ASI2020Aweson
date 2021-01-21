@@ -17,7 +17,7 @@
   <meta property="og:url" content="ccskm" />
   <meta property="og:site_name" content="ASI" />
 
-      
+  <meta name="yandex-verification" content="9f2dc06c96e8f1ed" />
       <!--Import Google Icon Font-->
       <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
       <!--Import materialize.css-->
