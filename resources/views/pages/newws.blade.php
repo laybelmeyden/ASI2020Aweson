@@ -12,7 +12,7 @@
               <p class="p12">{{ $new->data }}</p>
             </div>
             @if(!empty($new-> img))
-            <img src="storage/('assets/img/img5.png', $new->img)" class="carg">
+            <img src="storage/{{old('assets/img/img5.png', $new->img)}}" class="carg">
             @endif
           </div>
           <div class="card-content card-content1">
