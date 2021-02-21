@@ -12,7 +12,7 @@
               <p class="p12">{{ $new->data }}</p>
             </div>
             
-            if($new-> img === status(404))
+            if($new-> img === 'errors::404')
             <img src="assets/img/img5.png" class="carg">
             @endif
           </div>
