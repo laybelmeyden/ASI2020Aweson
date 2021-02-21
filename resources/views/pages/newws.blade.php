@@ -15,8 +15,6 @@
             <img src="storage/{{ $new->img }}" class="carg">
             @elseif($new-> img === status(404))
             <img src="assets/img/img5.png" class="carg">
-            @else
-            <img src="storage/{{ $new->img }}" class="carg">
             @endif
           </div>
           <div class="card-content card-content1">
