@@ -11,11 +11,9 @@
             <div class="data1">
               <p class="p12">{{ $new->data }}</p>
             </div>
-            @forelse ($news as $new)
             <img src="storage/{{ $new->img }}" class="carg">
             @empty
             <img src="assets/img/img5.png" class="carg">
-            @endforelse
           </div>
           <div class="card-content card-content1">
             <div class="i1">
