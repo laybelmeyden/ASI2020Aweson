@@ -73,10 +73,10 @@
                 <div class="data1">
                 <p class="p12">{{ $new->data }}</p>
                 </div>
-              @if($new->img  === null)
-              <img src="storage/{{ $new->img }}" class="carg">
-            @else
+            @if($new->img  === null)
             <img src="assets/img/img5.png" class="carg">
+            @else
+              <img src="storage/{{ $new->img }}" class="carg">
             @endif
             </div>
             <div class="card-content card-content1">
