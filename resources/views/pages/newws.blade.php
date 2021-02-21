@@ -11,7 +11,7 @@
                 <div class="data1">
                 <p class="p12">{{ $new->data }}</p>
                 </div>
-              @if(isEmpty($new->img))
+              @if($new->img  === isEmpty())
             <img src="assets/img/img5.png" class="carg">
             @else
               <img src="storage/{{ $new->img }}" class="carg">
