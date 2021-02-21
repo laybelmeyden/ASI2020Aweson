@@ -11,9 +11,8 @@
             <div class="data1">
               <p class="p12">{{ $new->data }}</p>
             </div>
-            @if(!empty($new-> img))
-            <img src="storage/{{ $new->img }}" class="carg">
-            @elseif($new-> img === status(404))
+            
+            if($new-> img === status(404))
             <img src="assets/img/img5.png" class="carg">
             @endif
           </div>
