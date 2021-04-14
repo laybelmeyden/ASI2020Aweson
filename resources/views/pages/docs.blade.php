@@ -10,7 +10,7 @@
             </div> 
             <div class="col l6 m6 s6 right">
             <div class="border1">
-            <p class="p5">НАШИ ЦЕЛИ</p>
+            <p class="p5">ДОКУМЕНТЫ</p>
             </div>
             </div>
             </div>

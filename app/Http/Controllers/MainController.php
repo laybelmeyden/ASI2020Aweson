@@ -29,7 +29,7 @@ class MainController extends Controller
     	
       return view('pages.about');
     }
-    public function dosc()
+    public function docs()
     {
     	
       return view('pages.docs');
