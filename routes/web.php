@@ -27,6 +27,8 @@ Route::get('/new{solo}', [MainController::class, 'newsolo']);
 
 Route::get('/project{solo}', [MainController::class, 'projectsolo']);
 
+Route::get('/docs', [MainController::class, 'docs']);
+
 Route::post('/contacts', [MainController::class, 'contacts']);
 
 

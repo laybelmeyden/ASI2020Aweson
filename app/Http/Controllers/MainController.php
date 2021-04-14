@@ -29,7 +29,11 @@ class MainController extends Controller
     	
       return view('pages.about');
     }
-    
+    public function dosc()
+    {
+    	
+      return view('pages.docs');
+    }
         public function newws()
     {
       $news = News::latest()
